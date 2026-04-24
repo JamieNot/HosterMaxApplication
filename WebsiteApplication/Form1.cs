@@ -2,6 +2,7 @@ namespace WebsiteApplication
 {
     public partial class Form1 : Form
     {
+        int version = 1;
         int topbar_size = 23;
         private void WebView_ReScale()
         {
@@ -10,6 +11,8 @@ namespace WebsiteApplication
             this.webView21.Size = new System.Drawing.Size(this.ClientSize.Width, this.ClientSize.Height - topbar_size);
             this.button1.FlatAppearance.BorderSize = 0;
             this.button2.FlatAppearance.BorderSize = 0;
+
+            this.label3.Text = "Version " + version.ToString();
         }
 
         public Form1()
