@@ -128,6 +128,7 @@
             Controls.Add(button1);
             Controls.Add(webView21);
             Name = "Form1";
+            ShowIcon = false;
             Text = "HosterMax integrated app";
             Resize += Form1_Resize;
             ((System.ComponentModel.ISupportInitialize)webView21).EndInit();

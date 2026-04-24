@@ -1,4 +1,5 @@
 # Builds
 WebsiteApplication/bin/
+WebsiteApplication/obj/
 .vs/
 .git/
