@@ -19,7 +19,8 @@ namespace WebsiteApplication
         private void webView21_SourceChanged(object sender, Microsoft.Web.WebView2.Core.CoreWebView2SourceChangedEventArgs e)
         {
             string cur_url = this.webView21.Source.ToString();
-            this.Text = cur_url;
+            //this.Text = cur_url;
+            this.domainname.Text = cur_url;
         }
 
         private void Form1_Resize(object sender, EventArgs e)

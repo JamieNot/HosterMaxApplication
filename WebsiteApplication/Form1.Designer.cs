@@ -32,6 +32,8 @@
             button1 = new Button();
             button2 = new Button();
             label1 = new Label();
+            label2 = new Label();
+            domainname = new Label();
             ((System.ComponentModel.ISupportInitialize)webView21).BeginInit();
             SuspendLayout();
             // 
@@ -78,17 +80,37 @@
             label1.TabIndex = 3;
             label1.Text = "Navigate To:";
             // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(350, 4);
+            label2.Name = "label2";
+            label2.Size = new Size(74, 15);
+            label2.TabIndex = 4;
+            label2.Text = "Current URL:";
+            // 
+            // domainname
+            // 
+            domainname.AutoSize = true;
+            domainname.Location = new Point(421, 4);
+            domainname.Name = "domainname";
+            domainname.Size = new Size(135, 15);
+            domainname.TabIndex = 5;
+            domainname.Text = "https://hostermax.co.uk";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(domainname);
+            Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(webView21);
             Name = "Form1";
-            Text = "Form1";
+            Text = "HosterMax integrated app";
             Resize += Form1_Resize;
             ((System.ComponentModel.ISupportInitialize)webView21).EndInit();
             ResumeLayout(false);
@@ -101,5 +123,7 @@
         private Button button1;
         private Button button2;
         private Label label1;
+        private Label label2;
+        private Label domainname;
     }
 }
