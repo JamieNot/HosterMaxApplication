@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\JN\\Desktop\\repo\\HosterMaxApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1837B85D-ABAC-4E2E-B109-1C2CDFBC11DD}|WebsiteApplication\\WebsiteApplication.csproj|c:\\users\\jn\\desktop\\repo\\hostermaxapplication\\websiteapplication\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1837B85D-ABAC-4E2E-B109-1C2CDFBC11DD}|WebsiteApplication\\WebsiteApplication.csproj|solutionrelative:websiteapplication\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1837B85D-ABAC-4E2E-B109-1C2CDFBC11DD}|WebsiteApplication\\WebsiteApplication.csproj|c:\\users\\jn\\desktop\\repo\\hostermaxapplication\\websiteapplication\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1837B85D-ABAC-4E2E-B109-1C2CDFBC11DD}|WebsiteApplication\\WebsiteApplication.csproj|solutionrelative:websiteapplication\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\JN\\Desktop\\repo\\HosterMaxApplication\\WebsiteApplication\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "WebsiteApplication\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\JN\\Desktop\\repo\\HosterMaxApplication\\WebsiteApplication\\Form1.Designer.cs",
+              "RelativeToolTip": "WebsiteApplication\\Form1.Designer.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAqwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T16:19:16.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\JN\\Desktop\\repo\\HosterMaxApplication\\WebsiteApplication\\Form1.cs",
+              "RelativeDocumentMoniker": "WebsiteApplication\\Form1.cs",
+              "ToolTip": "C:\\Users\\JN\\Desktop\\repo\\HosterMaxApplication\\WebsiteApplication\\Form1.cs",
+              "RelativeToolTip": "WebsiteApplication\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T16:06:44.938Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

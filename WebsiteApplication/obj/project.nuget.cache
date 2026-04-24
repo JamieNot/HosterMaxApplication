@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "7W867P2OI5w=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\JN\\Desktop\\repo\\HosterMaxApplication\\WebsiteApplication\\WebsiteApplication.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\JN\\.nuget\\packages\\microsoft.web.webview2\\1.0.3965-prerelease\\microsoft.web.webview2.1.0.3965-prerelease.nupkg.sha512"
+  ],
+  "logs": []
+}
