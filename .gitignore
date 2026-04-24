@@ -1,2 +1,4 @@
 # Builds
 WebsiteApplication/bin
+.vs
+.git
