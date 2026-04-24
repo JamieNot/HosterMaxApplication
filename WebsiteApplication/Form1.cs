@@ -26,5 +26,17 @@ namespace WebsiteApplication
         {
             WebView_ReScale();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            System.Uri main_website = new System.Uri("https://hostermax.co.uk");
+            this.webView21.Source = main_website;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            System.Uri overplan_website = new System.Uri("https://overplan.hostermax.co.uk");
+            this.webView21.Source = overplan_website;
+        }
     }
 }
