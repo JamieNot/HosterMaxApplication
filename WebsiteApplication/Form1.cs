@@ -2,7 +2,7 @@ namespace WebsiteApplication
 {
     public partial class Form1 : Form
     {
-        int version = 1;
+        int version = 2;
         int topbar_size = 23;
         private void WebView_ReScale()
         {

@@ -91,7 +91,7 @@
             // 
             label1.AutoSize = true;
             label1.ForeColor = SystemColors.HighlightText;
-            label1.Location = new Point(0, 4);
+            label1.Location = new Point(3, 4);
             label1.Name = "label1";
             label1.Size = new Size(72, 15);
             label1.TabIndex = 3;
@@ -130,7 +130,7 @@
             // resize_display_panel
             // 
             resize_display_panel.BackColor = SystemColors.MenuHighlight;
-            resize_display_panel.Location = new Point(304, 288);
+            resize_display_panel.Location = new Point(0, 350);
             resize_display_panel.Name = "resize_display_panel";
             resize_display_panel.Size = new Size(200, 100);
             resize_display_panel.TabIndex = 7;
