@@ -52,3 +52,4 @@ C:\Users\JN\Desktop\repo\HosterMaxApplication\WebsiteApplication\obj\Debug\net8.
 C:\Users\JN\Desktop\repo\HosterMaxApplication\WebsiteApplication\obj\Debug\net8.0-windows\WebsiteApplication.pdb
 C:\Users\JN\Desktop\repo\HosterMaxApplication\WebsiteApplication\obj\Debug\net8.0-windows\WebsiteApplication.genruntimeconfig.cache
 C:\Users\JN\Desktop\repo\HosterMaxApplication\WebsiteApplication\obj\Debug\net8.0-windows\ref\WebsiteApplication.dll
+C:\Users\JN\Desktop\repo\HosterMaxApplication\WebsiteApplication\obj\Debug\net8.0-windows\WebsiteApplication.Properties.Resources.resources

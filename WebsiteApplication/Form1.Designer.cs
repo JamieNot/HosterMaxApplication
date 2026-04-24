@@ -53,27 +53,42 @@
             // 
             // button1
             // 
+            button1.BackColor = SystemColors.ControlDarkDark;
+            button1.FlatAppearance.BorderColor = SystemColors.ButtonShadow;
+            button1.FlatAppearance.MouseDownBackColor = Color.Lime;
+            button1.FlatAppearance.MouseOverBackColor = Color.Green;
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.ForeColor = SystemColors.HighlightText;
             button1.Location = new Point(78, 0);
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
             button1.TabIndex = 1;
             button1.Text = "Main Page";
-            button1.UseVisualStyleBackColor = true;
+            button1.UseMnemonic = false;
+            button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
             // button2
             // 
+            button2.BackColor = SystemColors.ControlDarkDark;
+            button2.FlatAppearance.BorderColor = SystemColors.ButtonShadow;
+            button2.FlatAppearance.MouseDownBackColor = Color.Lime;
+            button2.FlatAppearance.MouseOverBackColor = Color.Green;
+            button2.FlatStyle = FlatStyle.Flat;
+            button2.ForeColor = SystemColors.HighlightText;
             button2.Location = new Point(159, 0);
             button2.Name = "button2";
             button2.Size = new Size(75, 23);
             button2.TabIndex = 2;
             button2.Text = "OverPlan";
-            button2.UseVisualStyleBackColor = true;
+            button2.UseMnemonic = false;
+            button2.UseVisualStyleBackColor = false;
             button2.Click += button2_Click;
             // 
             // label1
             // 
             label1.AutoSize = true;
+            label1.ForeColor = SystemColors.HighlightText;
             label1.Location = new Point(0, 4);
             label1.Name = "label1";
             label1.Size = new Size(72, 15);
@@ -83,6 +98,7 @@
             // label2
             // 
             label2.AutoSize = true;
+            label2.ForeColor = SystemColors.HighlightText;
             label2.Location = new Point(350, 4);
             label2.Name = "label2";
             label2.Size = new Size(74, 15);
@@ -92,6 +108,7 @@
             // domainname
             // 
             domainname.AutoSize = true;
+            domainname.ForeColor = SystemColors.HighlightText;
             domainname.Location = new Point(421, 4);
             domainname.Name = "domainname";
             domainname.Size = new Size(135, 15);
