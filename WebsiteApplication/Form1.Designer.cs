@@ -35,6 +35,7 @@
             label2 = new Label();
             domainname = new Label();
             label3 = new Label();
+            resize_display_panel = new Panel();
             ((System.ComponentModel.ISupportInitialize)webView21).BeginInit();
             SuspendLayout();
             // 
@@ -126,12 +127,22 @@
             label3.TabIndex = 6;
             label3.Text = "Version 0";
             // 
+            // resize_display_panel
+            // 
+            resize_display_panel.BackColor = SystemColors.MenuHighlight;
+            resize_display_panel.Location = new Point(304, 288);
+            resize_display_panel.Name = "resize_display_panel";
+            resize_display_panel.Size = new Size(200, 100);
+            resize_display_panel.TabIndex = 7;
+            resize_display_panel.Visible = false;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.WindowFrame;
             ClientSize = new Size(800, 450);
+            Controls.Add(resize_display_panel);
             Controls.Add(label3);
             Controls.Add(domainname);
             Controls.Add(label2);
@@ -142,6 +153,8 @@
             Name = "Form1";
             ShowIcon = false;
             Text = "HosterMax integrated app";
+            ResizeBegin += Form1_ResizeBegin;
+            ResizeEnd += Form1_ResizeEnd;
             Resize += Form1_Resize;
             ((System.ComponentModel.ISupportInitialize)webView21).EndInit();
             ResumeLayout(false);
@@ -157,5 +170,6 @@
         private Label label2;
         private Label domainname;
         private Label label3;
+        private Panel resize_display_panel;
     }
 }

@@ -9,16 +9,22 @@ namespace WebsiteApplication
             this.webView21.Location = new System.Drawing.Point(0, topbar_size);
             //                                                    width        ,        height          -   topbar
             this.webView21.Size = new System.Drawing.Size(this.ClientSize.Width, this.ClientSize.Height - topbar_size);
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button2.FlatAppearance.BorderSize = 0;
-
-            this.label3.Text = "Version " + version.ToString();
+        }
+        private void DisplayPanel_ReScale()
+        {
+            this.resize_display_panel.Location = new System.Drawing.Point(0, topbar_size);
+            //                                                    width        ,        height          -   topbar
+            this.resize_display_panel.Size = new System.Drawing.Size(this.ClientSize.Width, this.ClientSize.Height - topbar_size);
         }
 
         public Form1()
         {
             InitializeComponent();
+
             WebView_ReScale();
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.label3.Text = "Version " + version.ToString();
         }
 
         private void webView21_SourceChanged(object sender, Microsoft.Web.WebView2.Core.CoreWebView2SourceChangedEventArgs e)
@@ -28,7 +34,7 @@ namespace WebsiteApplication
             this.domainname.Text = cur_url;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button2.FlatAppearance.BorderSize = 0;
-            if(cur_url == "https://hostermax.co.uk/")
+            if (cur_url == "https://hostermax.co.uk/")
             {
                 this.button1.FlatAppearance.BorderSize = 1;
             }
@@ -40,7 +46,8 @@ namespace WebsiteApplication
 
         private void Form1_Resize(object sender, EventArgs e)
         {
-            WebView_ReScale();
+            //WebView_ReScale();
+            DisplayPanel_ReScale();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -57,6 +64,18 @@ namespace WebsiteApplication
             this.webView21.Source = overplan_website;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button2.FlatAppearance.BorderSize = 1;
+        }
+
+        private void Form1_ResizeBegin(object sender, EventArgs e)
+        {
+            this.resize_display_panel.Visible = true;
+            DisplayPanel_ReScale();
+        }
+
+        private void Form1_ResizeEnd(object sender, EventArgs e)
+        {
+            WebView_ReScale();
+            this.resize_display_panel.Visible = false;
         }
     }
 }
