@@ -1,4 +1,4 @@
 # Builds
-WebsiteApplication/bin
-.vs
-.git
+WebsiteApplication/bin/
+.vs/
+.git/
